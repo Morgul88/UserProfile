@@ -23,7 +23,7 @@ public class UserProfileService(UserProfileRepository userProfileRepository, Rol
             
             if (!_userProfileRepository.Exists(x => x.Id == user.Id))
             {
-
+                //Test
                 //var adminRole = _roleRepository.GetOne(x => x.RoleType == "Admin");
                 //var privateRole = _roleRepository.GetOne(x => x.RoleType == "Private");
 
